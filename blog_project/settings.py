@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'About_US',
     'blog_app',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -57,6 +58,7 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'blog_app.context_processors.get_social_links',
                 'blog_app.context_processors.get_categories',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',

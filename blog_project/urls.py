@@ -18,8 +18,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from blog_app import views as blog_views
 
 urlpatterns = [
     path('', include('blog_app.urls')),
     path('admin/', admin.site.urls),
+    path('<slug:slug>/', blog_views.blogs, name='blogs'),
+    # Search endpoint
+    path('blogs/search/', blog_views.search, name='search')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

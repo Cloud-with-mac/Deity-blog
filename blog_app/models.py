@@ -27,7 +27,7 @@ class Blog(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
-    # the featured-image will be uploaded to a folder called upload with the current year, month and date
+    # the featured-image will be uploaded to a folder called upload with the current year, month and day
     feature_image = models.ImageField(upload_to='uploads/%Y/%m/%d/')
     short_description = models.TextField(max_length=1000)
     blog_body = models.TextField(max_length=2000)
