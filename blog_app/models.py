@@ -3,9 +3,10 @@ from django.db import models
 
 
 class Category(models.Model):
-    category_name = models.CharField(max_length=200, unique=True)
+
+    category_name = models.CharField(max_length=250)
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.category_name
@@ -14,27 +15,25 @@ class Category(models.Model):
         verbose_name_plural = "categories"
 
 
-# TO CREATE A DROP-DOWN
 STATUS_CHOICES = (
-    ('Draft', 'Draft'),
-    (1, 'Published'),
+    ("Draft", "Draft"),
+    ("Published", "Published"),
 )
 
-
 class Blog(models.Model):
-    title = models.CharField(max_length=200)
-    slug = models.SlugField(max_length=150, unique=True, blank=True)
+
+    title = models.CharField(max_length=250)
+    slug = models.SlugField(max_length=250, blank=True, unique=True)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
-
-    # the featured-image will be uploaded to a folder called upload with the current year, month and day
-    feature_image = models.ImageField(upload_to='uploads/%Y/%m/%d/')
-    short_description = models.TextField(max_length=1000)
-    blog_body = models.TextField(max_length=2000)
-    status = models.IntegerField(max_length=20, choices=STATUS_CHOICES, default='Draft')
+    feature_image = models.ImageField(upload_to='upload/%Y/%M/%D/')
+    short_description = models.TextField(max_length=5000)
+    blog_body = models.TextField(max_length=10000, default='')
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='Draft')
     is_featured = models.BooleanField(default=False)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.title
+

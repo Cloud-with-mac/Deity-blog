@@ -29,6 +29,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "crispy_forms",
+    "crispy_bootstrap4",
     'About_US',
     'blog_app',
     'django.contrib.admin',
@@ -50,6 +52,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'blog_project.urls'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+
 
 TEMPLATES = [
     {

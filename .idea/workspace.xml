@@ -1,7 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6908e5d-03b0-4770-a030-08a83fbfc3e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboards/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About_US/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/About_US/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/templates/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/templates/postbycategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/postbycategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fX3O3btUScyEfXJbZMkK9MNkbN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.context_processors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/machub/Desktop/BLOG/blog_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\machub\Desktop\BLOG\blog_project\templates\dashboard" />
+      <recent name="C:\Users\machub\Desktop\BLOG\blog_project" />
+      <recent name="C:\Users\DJANGO\Desktop\BLOG\blog_project\blog_app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="blog_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/About_US" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/About_US/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6908e5d-03b0-4770-a030-08a83fbfc3e2" name="Changes" comment="" />
+      <created>1713933560859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713933560859</updated>
+      <workItem from="1713933561195" duration="302000" />
+      <workItem from="1713933881746" duration="1208000" />
+      <workItem from="1713935106479" duration="193000" />
+      <workItem from="1713935498032" duration="154000" />
+      <workItem from="1722723553266" duration="9660000" />
+      <workItem from="1722994355012" duration="36000" />
+      <workItem from="1723524778259" duration="677000" />
+      <workItem from="1723631493085" duration="8000" />
+      <workItem from="1723631518125" duration="1743000" />
+      <workItem from="1723634721011" duration="312000" />
+      <workItem from="1723635977326" duration="7255000" />
+      <workItem from="1723682765573" duration="4698000" />
+      <workItem from="1725203884389" duration="9951000" />
+      <workItem from="1725223871110" duration="31000" />
+      <workItem from="1725223911204" duration="4807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog_project$context_processors.coverage" NAME="context_processors Coverage Results" MODIFIED="1713934547797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog_app" />
+    <SUITE FILE_PATH="coverage/blog_project$views.coverage" NAME="views Coverage Results" MODIFIED="1713935602446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/About_US" />
   </component>
 </project>
