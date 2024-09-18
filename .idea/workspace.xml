@@ -5,19 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6908e5d-03b0-4770-a030-08a83fbfc3e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboards/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/add_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/edit_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dashboard/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/06/09/10/24/Tyreek_HIll.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/08/09/10/24/trump_and_harris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/10/09/10/24/google.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/13/09/10/24/apple_airpod.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/15/09/10/24/obstetric.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/15/09/14/24/pope.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/16/09/10/24/swiss.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/21/09/14/24/pope.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/36/09/14/24/ScreenShot-2024-9-14_6-3-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/36/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/39/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/39/09/14/24/ScreenShot-2024-9-14_6-3-16_Qab3gjO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/41/09/14/24/ScreenShot-2024-9-14_6-3-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/41/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/43/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/44/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/46/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/49/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/49/09/14/24/ScreenShot-2024-9-14_6-3-16_CPRhBUg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/50/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/50/09/14/24/ScreenShot-2024-9-14_6-3-16_gMCWqCr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/51/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/51/09/14/24/ScreenShot-2024-9-14_6-3-16_Yo88XMm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/51/09/14/24/ScreenShot-2024-9-14_6-3-16_tK8XW5U.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/52/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/52/09/14/24/ScreenShot-2024-9-14_6-3-16_8gcMhLB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/54/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/54/09/14/24/ScreenShot-2024-9-14_6-3-16_pf3pEAK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/55/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/55/09/14/24/ScreenShot-2024-9-14_6-3-16_9E5HU3g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/56/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/56/09/14/24/ScreenShot-2024-9-14_6-3-16_36MxUUC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/56/09/14/24/ScreenShot-2024-9-14_6-3-16_Dsc6GGc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/56/09/14/24/ScreenShot-2024-9-14_6-3-16_e2LB2XW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/upload/2024/57/09/14/24/ScreenShot-2024-9-14_6-3-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/add_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/edit_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/edit_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dashboard/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/password_reset/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/password_reset/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/password_reset/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/password_reset/password_reset_sent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboards/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboards/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboards/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboards/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboards/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard/sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +86,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2fX3O3btUScyEfXJbZMkK9MNkbN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,17 +101,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/machub/Desktop/BLOG/blog_project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/macan/Desktop/BLOG/blog_project/templates/dashboard&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\macan\Desktop\BLOG\blog_project\templates\dashboard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\machub\Desktop\BLOG\blog_project\templates\dashboard" />
       <recent name="C:\Users\machub\Desktop\BLOG\blog_project" />
@@ -133,7 +186,25 @@
       <workItem from="1725844005171" duration="385000" />
       <workItem from="1725847662820" duration="1425000" />
       <workItem from="1725885506080" duration="2835000" />
-      <workItem from="1725896695130" duration="5633000" />
+      <workItem from="1725896695130" duration="38271000" />
+      <workItem from="1726007563369" duration="5129000" />
+      <workItem from="1726073174763" duration="27000" />
+      <workItem from="1726073204597" duration="4000" />
+      <workItem from="1726073327357" duration="26000" />
+      <workItem from="1726073554531" duration="36000" />
+      <workItem from="1726074916810" duration="24000" />
+      <workItem from="1726076987692" duration="261000" />
+      <workItem from="1726155725784" duration="177000" />
+      <workItem from="1726155917789" duration="598000" />
+      <workItem from="1726285100070" duration="2736000" />
+      <workItem from="1726293632038" duration="1305000" />
+      <workItem from="1726295563777" duration="167000" />
+      <workItem from="1726295759674" duration="70000" />
+      <workItem from="1726296186581" duration="349000" />
+      <workItem from="1726296711461" duration="89000" />
+      <workItem from="1726296939867" duration="42802000" />
+      <workItem from="1726491329067" duration="12247000" />
+      <workItem from="1726541352745" duration="39698000" />
     </task>
     <servers />
   </component>

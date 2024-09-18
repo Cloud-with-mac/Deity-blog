@@ -1,7 +1,13 @@
+from django.core.mail import send_mail
+from django.conf import settings
+from django.http import HttpResponseRedirect
+
 from django.shortcuts import render, get_object_or_404, redirect
-from django.contrib.auth.models import auth
+from django.contrib.auth.models import auth, User
+from django.template.defaulttags import comment
+
 from About_US.models import About
-from blog_app.models import Category, Blog
+from blog_app.models import Category, Blog, Comment
 from django.db.models import Q
 from django.contrib.auth.forms import AuthenticationForm
 from blog_app.forms import RegistrationForm
@@ -44,7 +50,20 @@ def post_by_category(request, category_id):
 
 def blogs(request, slug):
     single_blog = get_object_or_404(Blog, slug=slug, status='Published')
+    # Comment section setup
+    if request.method == 'POST':
+        comment = Comment()
+        comment.user = request.user
+        comment.blog = single_blog
+        comment.comment = request.POST['comment']
+        comment.save()
+        return HttpResponseRedirect(request.path_info)
+
+    comments = Comment.objects.filter(blog=single_blog)
+    comment_count = comments.count()
     context = {
+        'comment_count': comment_count,
+        'comments': comments,
         'single_blog': single_blog
     }
     return render(request, 'blogs.html', context)
@@ -68,10 +87,17 @@ def Register(request):
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
         if form.is_valid():
+            current_user = form.save(commit=True)
             form.save()
+            send_mail(
+                "Welcome to Django Blog",
+                "Congratulations on creating your account",
+                settings.DEFAULT_FROM_EMAIL,
+                [current_user.email]
+            )
             return redirect('home')
     context = {
-        'form': form
+        'form': form,
     }
     return render(request, 'register.html', context)
 
